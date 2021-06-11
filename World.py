@@ -1,8 +1,18 @@
-#program to add two number dynamically.
+#program to swap numbers
 
-a = int(input("enter the first number: "))
-b = int(input("enter the second number: "))
+# Python program to swap two variables
 
-sum = a + b
+#x = 5
+#y = 10
 
-print ("sum:", sum)
+# To take inputs from the user
+x = input('Enter value of x: ')
+y = input('Enter value of y: ')
+
+# create a temporary variable and swap the values
+temp = x
+x = y
+y = temp
+
+print('The value of x after swapping: {}'.format(x))
+print('The value of y after swapping: {}'.format(y))
